@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0 (1).js"></script>
+    
+    
+    <script>
+    $(document).ready(function(){
+        $("#btn1").click(function(){
+            $(".html").show();
+            $("#v").show();
+            
+        })
+
+        
+        $("#v").click(function(){
+            $(".resulta1 ").show();
+        })
+        $(".i").click(function(){
+            $(".sho").show();
+
+        })
+        $("#btn1").click(function(){
+            $("#time").show();
+       
+
+        })
+        
+        $(".i1").click(function(){
+            $(".sho1").show();
+        })
+        $(".i2").click(function(){
+            $(".sho2").show();
+        })
+        $(".i3").click(function(){
+            $(".sho3").show();
+        })
+        $(".i4").click(function(){
+            $(".sho4").show();
+        })
+        $(".i5").click(function(){
+            $(".sho5").show();
+        })
+        $(".i6").click(function(){
+            $(".sho6").show();
+        })
+        $(".i7").click(function(){
+            $(".sho7").show();
+        })
+        $(".i8").click(function(){
+            $(".sho8").show();
+        })
+        $(".i9").click(function(){
+            $(".sho9").show();
+        })
+
+
+
+
+       
+    $("#btonm1").on( 'click',function reloood(){
+    location.reload()
+
+})
+
+    })
+    
+ 
+      
+  
+</script>
+
+   
+</head>
+
+
+<body >
+   
+    
+    <div class="container" id="c">
+
+        <div class="resultat" style="border: 2px solid orangered; height:200px ;">
+             <i style="position: relative; top: 40px;"></span> Bravo tu as bien repondu </i><br><br>
+             <div><img src="3261154.png" alt="" id="reussir" ></div>
+            <span><strong style="color: blueviolet; position: relative; top: 200px; border:2px solid #A760FF; border-radius: 20px; padding: 20px; " >voter resultat est:  
+                <span id="note" style="color: palevioletred;"></span>/10</strong> </span>
+              
+            </div>
+
+
+            <div class="resultat1" style="border: 2px solid orangered; height:200px ;">
+                <div><img src="OIP.jpg" alt=""id="imf"></div>
+                <i style="position: relative; bottom: 140px;"> Malheureusement ,tu n'avez pas bien repondu <br><br><span style="background-color: rgb(255, 0, 98);">essez autre fois</span> </i><br><br>
+                <span><strong style="color: blueviolet; position: relative; top: 149px; border:2px solid #A760FF; border-radius: 20px; padding: 20px; " >voter resultat est:  
+                    <span id="note1" style="color: palevioletred;"></span>/10</strong> </span>
+                    
+                </div>
+               
+               </div>
+
+
+
+
+        <header>
+            <div class="div" id="m" style="border: 2px solid #A760FF; padding-left: 8px;">
+                <h1><em> Les regles de QUIZE</em> </h1><div><input id="time" style="width: 90px;  background-color: cornflowerblue;"></div>
+                -Ce test content 10 qustion en total in( HTML ,css et JavaScript)pour chaque question cochez la bonne reponse sur 9seconds:
+                -Pour valider le text ,il faut reponse au moinsa deux qustion pour chaque categorie ,sinon la note ne sera pas calculer (le scorce sur 10 points)
+                -si vous affichez la solution ,voter reponse sera compte comme fausse.<br>
+                <button id="btn1">START</button>
+              
+
+            </div> 
+           
+            
+            <div class="html">
+                 <!----html---------------------------------------------------------------------------------------->
+                <div class="dd">
+                    <details id="html">
+                        <summary style="border: solid 2px coral;" >HTML</summary>
+                        <div class="t" >
+                            <h1>Question Nº1:</h1>
+                        <p>le role du HTML ,est de....</p>
+                            <div>
+                                <input type="radio" id="r1" class="different" name="in" >
+                                <span for="" >1-Creer des sites e-commence <img src="5290081.png" alt="" class="icon sho" ></span>
+                                
+                            </div>
+                            <div>
+                                <input type="radio" id="r2" name="in">
+                                <label for="">2-Ordonner du contenu <img src="458594.png" alt="" class="icon sho"></label>
+                            </div>
+                            <div>
+                                <input type="radio" id="r3" name="in">
+                                <label>3-Mettre en forme du texte <img src="458594.png" alt="" class="icon sho"></label>
+                            </div>
+                            <i><img src="3261308.png" alt="" class="i"></i>
+                        </div>
+                        
+                    <div class="t">
+                        <h1>Question Nº2:</h1>
+                        <p>pour definir un titre dans une page HTML ,on utilise....</p>
+                        <div>
+                            <input type="radio" id="r11" name="in1">
+                            <label> 1-L'element title <img src="458594.png" alt="" class="icon sho1" ></label>
+                            
+                        </div>
+                        <div>
+                            <input type="radio" id="r12" name="in1">
+                            <label for="">2-L'element head <img src="458594.png" alt="" class="icon sho1"></label>
+                        </div>
+                        <div>
+                            <input type="radio" id="r13" class="different" name="in1">
+                            <label for="" >3-Un element h1,h2...h6 <img src="5290081.png" alt="" class="icon sho1"></label>
+                        </div>
+                       <i><img src="3261308.png" alt="" class="i1"></i>
+                    </div>  
+                    <div class="t">
+                        <h1>Question Nº3:</h1>
+                        <p>l'elements de la balise table sont:</p>
+                        <div>
+                            <input type="radio" id="r14" name="in2">
+                            <label>table,tobody,tfoot <img src="458594.png" alt="" class="icon sho2"></label>
+                            
+                        </div>
+                        <div>
+                            <input type="radio" id="r15" class="different" name="in2" >
+                            <label for="" >table,tr,td <img src="5290081.png" alt="" class="icon sho2"></label>
+                        </div>
+                        <div>
+                            <input type="radio" id="r16" name="in2">
+                            <label for="">table,td,tfoot <img src="458594.png" alt="" class="icon sho2"></label>
+                        </div>
+                       <i><img src="3261308.png" alt="" class="i2" ></i>
+                    </div>  
+                    </details>
+                    </div>  
+                    
+                    <!------------------------------------------------------------------------------------>
+                
+
+
+
+
+
+
+
+                <!------------------------------------------------------CSS----------------------------------------------->
+                <div class="dd">
+                    <details id="css">
+                        <summary style="border: solid 2px coral;" >CSS</summary>
+                        <div class="t" >
+                            <h1>Question Nº1:</h1>
+                        <p>Que signifie css</p>
+                            <div>
+                                <input type="radio" id="r2" class="different" name="in3">
+                                <label >1-Cascading Style Sheets <img src="5290081.png" alt="" class="icon sho3"></label>
+                            </div>
+                            <div>
+                                <input type="radio" id="r21" name="in3">
+                                <label for="">2-Create Simple Samples <img src="458594.png" alt="" class="icon sho3"></label>
+                            </div>
+                            <div>
+                                <input type="radio" id="22" name="in3">
+                                <span for="">3-Choucroute et Saucisses d'alsace <img src="458594.png" alt="" class="icon sho3"></span>
+                            </div>
+                            <i><img src="3261308.png" alt="" class="i3" ></i>
+                        </div>
+                        
+                    <div class="t">
+                        <h1>Question Nº2:</h1>
+                        <p>pour cree un tite de forme italique on utilise la balise</p>
+                        <div>
+                            <input type="radio" id="r31" class="different" name="in4">
+                            <label >1- em <img src="5290081.png" alt="" class="icon sho4"></label>
+                            
+                        </div>
+                        <div>
+                            <input type="radio" id="r32" name="in4">
+                            <label for="">2-br <img src="458594.png" alt="" class="icon sho4" ></label>
+                        </div>
+                        <div>
+                            <input type="radio" id="r33" name="in4">
+                            <label for="" >3-hr <img src="458594.png" alt="" class="icon sho4"></label>
+                        </div>
+                       <i><img src="3261308.png" alt="" class="i4" ></i>
+                    </div>  
+                    <div class="t">
+                        <h1>Question Nº3:</h1>
+                        <p>ou est-il conseille de placer le code css</p>
+                        <div>
+                            <input type="radio" id="r34" name="in5">
+                            <label>1-Dans la balise body <img src="458594.png" alt="" class="icon sho5"></label>
+                            
+                        </div>
+                        <div>
+                            <input type="radio" id="r35"  name="in5">
+                            <label>2-Enter la balise header <img src="458594.png" alt="" class="icon sho5" ></label>
+                            
+                        </div>
+                        <div>
+                            <input type="radio" id="r36">3-Dans un fichier externe<br><span class="different" style="margin-left: 50px;"  name="in5">
+                                utilisable pour plusieur pages <img src="5290081.png" alt="" class="icon sho5" >
+                             </span> 
+                            
+                        </div>
+                        <div>
+                            <input type="radio" id="r37"  name="in5">
+                            <label>4-Dans un fichier JavaScript<img src="458594.png" alt="" class="icon sho5" ></label>
+                            
+                        </div>
+                        <i><img src="3261308.png" alt="" class="i5" ></i>
+                        
+                    </details>
+                    </div>  
+                    <!-------------------------------------------------------------------------------------->
+
+                    <!------------------------------------------JAVASCRIPT------------------------------------------->
+                    <div class="dd">
+                        <details id="css">
+                            <summary style="border: solid 2px coral;" >JAVASCRIPT</summary>
+                            <div class="t" >
+                                <h1>Question Nº1:</h1>
+                            <p>Dans quel balise  place le code le Javascript</p>
+                                <div>
+                                    <input type="radio" id="r41" class="different" name="in6">
+                                    <label >1-js <img src="458594.png" alt="" class="icon sho6" ></label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="r42" class="different"  name="in6">
+                                    <label >2-script  <img src="5290081.png" alt=""class="icon sho6" ></label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="43"  name="in6">
+                                    <label for="">3-javascript <img src="458594.png" alt=""class="icon sho6" > </label>
+                                </div>
+                                <i><img src="3261308.png" alt="" class="i6" ></i>
+                            </div>
+                            
+                        <div class="t">
+                            <h1>Question Nº2:</h1>
+                            <p>ou est le bon endroit pour inserer un Javascript</p>
+                            <div>
+
+                                <input type="radio" id="r51" class="different"  name="in7">
+                                <sapn >1-Both the head section and the body section are correct  <img src="5290081.png" alt="" class="icon sho7"></span>
+                                
+                            </div>
+                            <div>
+                                <input type="radio" id="r52"  name="in7">
+                                <label >2-in la balise body <img src="458594.png" alt=""class="icon sho7" ></label>
+                                
+                            </div>
+                            <div>
+                                <input type="radio" id="r53"  name="in7">
+                                <label for="" >3-in la balaise head <img src="458594.png" alt="" class="icon sho7"></label>
+                            </div>
+                           <i><img src="3261308.png" alt="" class="i7" ></i>
+                        </div>  
+                        <div class="t">
+                            <h1>Question Nº3:</h1>
+                            <p>Comment pouvez-vous ajouter un commentaire dans JavaScript</p>
+                            <div>
+                                <input type="radio" id="r51" class="different" name="in8">
+                                <label >1-//this is a comment  <img src="5290081.png" alt="" class="icon sho8" name="in8" ></label>
+                                
+                            </div>
+                            <div>
+                                <input type="radio" id="r52" name="in8">
+                                <label >2-<'!--this is comment--> <img src="458594.png" alt="" class="icon sho8"></label>
+                                
+                            </div>
+                            <div>
+                                <input type="radio" id="r53" name="in8">
+                                <label for="" >3-'this is a comment <img src="458594.png" alt="" class="icon sho8" ></label>
+                            </div>
+                           <i><img src="3261308.png" alt="" class="i8" ></i>
+                        </div>  
+                        <div class="t">
+                            <h1>Question Nº4:</h1>
+                            <p>Quelle methode n'existe pas dans le DOM</p>
+                            <div>
+                                <input type="radio" id="r54" class="different" name="in9">
+                                <label >1-document.getElementByClassName <img src="458594.png" alt="" class="icon sho9"></label>
+                                
+                            </div>
+                            <div>
+                                <input type="radio" id="r55"  name="in9" >
+                                <label >2-document.getElementByTagName <img src="458594.png" alt="" class="icon sho9" ></label>
+                                
+                            </div>
+                            <div>
+                                <input type="radio" id="r56"  name="in9" >
+                                <label for="" >3-document.getElementByAttribute  <img src="5290081.png" alt="" class="icon sho9"></label>
+                            </div>
+                            <div>
+                                <input type="radio" id="r57"  name="in9">
+                                <label for="" >3-document.getElementById <img src="458594.png" alt="" class="icon sho9"></label>
+                            </div>
+                           <i><img src="3261308.png" alt="" class="i9" ></i>
+                        </div>  
+                       
+
+                       
+
+
+
+                            
+                        </details>
+                        </div>  
+                        
+                        <!-------------------------------------------------------------------------------------->
+                    
+                       
+                
+                        <button id="v" type="button">VALIDER</button>
+                       
+    
+            </div>                
+                   
+                  
+
+                  
+
+
+                   
+            
+              
+
+                    
+               </div>
+              
+                    
+
+        </header>
+        <button id="btonm1" >RELOAD </button>
+        <tbody>
+
+        </tbody>
+
+    </div>
+    
+
+
+   
+   
+   
+
+    <script src="scrit.js"></script>
+
+</body>
+</html>
